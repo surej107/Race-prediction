@@ -8,17 +8,16 @@ Dataset Description
 
 The dataset consists of two main types of files:
 
-Races and Horses: Files available for every year from 1990 to 2020.
+Races Dataset: Information on races for each year from 1990 to 2020.
+
+Horses Dataset: Details on individual horses for each year from 1990 to 2020.
 
 Forward Data (forward.csv): Contains information collected prior to race starts, including:
 
-Average odds from Oddschecker.com.
+Average odds from Oddschecker.com
 
-Current RPR and TR values.
+Current RPR and TR values
 
-Dataset Links and Column Descriptions
-
-Refer to the dataset files for detailed column descriptions and additional metadata.
 
 Project Goals
 
@@ -78,7 +77,7 @@ Modeling Approach
 
 Model Selection
 
-Evaluate various machine learning models such as:
+Evaluate various machine learning models, such as:
 
 Regression
 
@@ -92,13 +91,13 @@ Use cross-validation to assess model performance.
 
 Handling Imbalanced Data
 
-Use techniques such as:
+Techniques such as:
 
-SMOTE (Synthetic Minority Over-sampling Technique).
+SMOTE (Synthetic Minority Over-sampling Technique)
 
-Under-sampling.
+Under-sampling
 
-Class weight adjustments.
+Class weight adjustments
 
 Feature Selection
 
@@ -108,4 +107,4 @@ Regularization techniques to reduce model complexity and prevent overfitting.
 
 Hyperparameter Tuning
 
-Grid search and random search for optimal hyperparameters.
+Perform grid search and random search for optimal hyperparameters.
